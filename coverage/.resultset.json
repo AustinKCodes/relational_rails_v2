@@ -242,12 +242,51 @@
           null,
           1,
           1,
+          1,
           null
         ]
       },
       "/Users/austink/Documents/turing_work/2mod/relational_rails_v2/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/austink/Documents/turing_work/2mod/relational_rails_v2/spec/features/liquor_distilleries/liquors/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/austink/Documents/turing_work/2mod/relational_rails_v2/spec/features/liquor_distilleries/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
           null
         ]
       },
@@ -267,22 +306,6 @@
       "/Users/austink/Documents/turing_work/2mod/relational_rails_v2/app/controllers/application_controller.rb": {
         "lines": [
           1,
-          null
-        ]
-      },
-      "/Users/austink/Documents/turing_work/2mod/relational_rails_v2/spec/features/liquor_distilleries/show_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
           null
         ]
       },
@@ -387,6 +410,6 @@
         ]
       }
     },
-    "timestamp": 1720554361
+    "timestamp": 1720556973
   }
 }

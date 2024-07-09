@@ -1,0 +1,9 @@
+<h1> Liquor List for <%= @distillery.name %> </h1>
+
+<% @distillery.liquors.each do |liquor| %>
+    <li>
+        Name: <%= liquor.name %>
+        <br> Age: <%= liquor.age %>
+        <br> Grain Alcohol?: <%= liquor.has_grain %>
+    </li>
+<% end %>

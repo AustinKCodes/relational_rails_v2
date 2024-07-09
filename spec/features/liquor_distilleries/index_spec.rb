@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.describe LiquorDistilleriesController
+RSpec.describe "LiquorDistilleriesController" do
     describe "Liquor Distillery index action" do
         it "lists all distilleries" do
             @distillery1 = LiquorDistillery.create!(name: "Distillery One")
@@ -12,3 +12,4 @@ RSpec.describe LiquorDistilleriesController
             expect(page).to have_content(@distillery2.name)
         end
     end
+end
