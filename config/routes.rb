@@ -12,5 +12,5 @@ Rails.application.routes.draw do
 
   get "/liquor_distilleries", to: "liquor_distilleries#index"
   get "/liquor_distilleries/:id", to: "liquor_distilleries#show"
-  get "/liquor_distilleries/:id/liquors", to: "liquor_distilleries/liquors#index"
+  get "/liquor_distilleries/:id/liquors", to: "liquor_distillery_liquors#index"
 end

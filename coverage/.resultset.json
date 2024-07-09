@@ -264,11 +264,11 @@
           null,
           1,
           1,
-          0,
-          0,
-          0,
-          0,
-          0,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -408,8 +408,18 @@
           null,
           null
         ]
+      },
+      "/Users/austink/Documents/turing_work/2mod/relational_rails_v2/app/controllers/liquor_distillery_liquors_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1720556973
+    "timestamp": 1720557986
   }
 }
