@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2024-07-09T15:41:22-04:00">2024-07-09T15:41:22-04:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2024-07-09T15:46:01-04:00">2024-07-09T15:46:01-04:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,14 +23,14 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="green">
-  95.19%
+  99.06%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.96
+         0.99
        </span>
     </span> hits/line
     )
@@ -43,11 +43,11 @@
   </div>
 
   <div class="t-line-summary">
-    <b>104</b> relevant lines,
-    <span class="green"><b>99</b> lines covered</span> and
-    <span class="red"><b>5</b> lines missed. </span>
+    <b>106</b> relevant lines,
+    <span class="green"><b>105</b> lines covered</span> and
+    <span class="red"><b>1</b> lines missed. </span>
     (<span class="green">
-  95.19%
+  99.06%
 </span>
 )
   </div>
@@ -95,9 +95,9 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#f77407f997ff315a58f242aca0ca02052814db0e" class="src_link" title="app/controllers/liquors_controller.rb">app/controllers/liquors_controller.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">9</td>
             <td class="cell--number">5</td>
-            <td class="cell--number">3</td>
-            <td class="cell--number">3</td>
+            <td class="cell--number">5</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -127,12 +127,12 @@
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#97159ac4fd60255221c89b6713af7625b57822da" class="src_link" title="app/models/liquor.rb">app/models/liquor.rb</a></td>
-            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="red strong cell--number t-file__coverage">75.00 %</td>
             <td class="cell--number">7</td>
             <td class="cell--number">4</td>
-            <td class="cell--number">4</td>
-            <td class="cell--number">0</td>
-            <td class="cell--number">1.25</td>
+            <td class="cell--number">3</td>
+            <td class="cell--number">1</td>
+            <td class="cell--number">0.75</td>
             
           </tr>
         
@@ -281,12 +281,12 @@
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#25ddf0d31870db5c7cb3e364b9b94357c691fe35" class="src_link" title="spec/features/liquors/show_spec.rb">spec/features/liquors/show_spec.rb</a></td>
-            <td class="red strong cell--number t-file__coverage">64.29 %</td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">20</td>
             <td class="cell--number">14</td>
-            <td class="cell--number">9</td>
-            <td class="cell--number">5</td>
-            <td class="cell--number">0.64</td>
+            <td class="cell--number">14</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
             
           </tr>
         
@@ -526,8 +526,8 @@
     
 
     <div class="t-line-summary">
-      <b>3</b> relevant lines.
-      <span class="green"><b>3</b> lines covered</span> and
+      <b>5</b> relevant lines.
+      <span class="green"><b>5</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -584,6 +584,50 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="6">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    def show</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">        @liquor = Liquor.find(params[:id])</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
             
             
 
@@ -719,8 +763,8 @@
   <div class="header">
     <h3>app/models/liquor.rb</h3>
     <h4>
-      <span class="green">
-  100.0%
+      <span class="red">
+  75.0%
 </span>
 
       lines covered
@@ -730,8 +774,8 @@
 
     <div class="t-line-summary">
       <b>4</b> relevant lines.
-      <span class="green"><b>4</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <span class="green"><b>3</b> lines covered</span> and
+      <span class="red"><b>1</b> lines missed.</span>
     </div>
 
     
@@ -786,8 +830,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="5">
-            <span class="hits">2</span>
+          <li class="missed" data-hits="0" data-linenumber="5">
+            
             
 
             
@@ -3815,8 +3859,8 @@
   <div class="header">
     <h3>spec/features/liquors/show_spec.rb</h3>
     <h4>
-      <span class="red">
-  64.29%
+      <span class="green">
+  100.0%
 </span>
 
       lines covered
@@ -3826,8 +3870,8 @@
 
     <div class="t-line-summary">
       <b>14</b> relevant lines.
-      <span class="green"><b>9</b> lines covered</span> and
-      <span class="red"><b>5</b> lines missed.</span>
+      <span class="green"><b>14</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
 
     
@@ -3970,8 +4014,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="13">
-            
+          <li class="covered" data-hits="1" data-linenumber="13">
+            <span class="hits">1</span>
             
 
             
@@ -3981,8 +4025,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="14">
-            
+          <li class="covered" data-hits="1" data-linenumber="14">
+            <span class="hits">1</span>
             
 
             
@@ -3992,8 +4036,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="15">
-            
+          <li class="covered" data-hits="1" data-linenumber="15">
+            <span class="hits">1</span>
             
 
             
@@ -4003,8 +4047,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="16">
-            
+          <li class="covered" data-hits="1" data-linenumber="16">
+            <span class="hits">1</span>
             
 
             
@@ -4014,8 +4058,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="17">
-            
+          <li class="covered" data-hits="1" data-linenumber="17">
+            <span class="hits">1</span>
             
 
             
