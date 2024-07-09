@@ -4,6 +4,6 @@ class LiquorDistilleriesController < ApplicationController
     end
 
     def show
-        
+        @liquor_distillery = LiquorDistillery.find(params[:id])
     end
 end

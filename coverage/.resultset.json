@@ -258,7 +258,7 @@
           null,
           null,
           1,
-          null,
+          1,
           null,
           null
         ]
@@ -280,14 +280,38 @@
           null,
           1,
           null,
-          0,
+          1,
           null,
           null
         ]
       },
       "/Users/austink/Documents/turing_work/2mod/relational_rails_v2/spec/features/liquors/index_spec.rb": {
         "lines": [
-
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/austink/Documents/turing_work/2mod/relational_rails_v2/app/controllers/liquors_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
         ]
       },
       "/Users/austink/Documents/turing_work/2mod/relational_rails_v2/spec/features/liquors/show_spec.rb": {
@@ -300,7 +324,7 @@
           1,
           null,
           1,
-          1,
+          2,
           null
         ]
       },
@@ -323,7 +347,7 @@
           1,
           null,
           1,
-          1,
+          2,
           null
         ]
       },
@@ -331,10 +355,14 @@
         "lines": [
           1,
           1,
+          null,
+          1,
+          2,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1720465581
+    "timestamp": 1720553543
   }
 }
