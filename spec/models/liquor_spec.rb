@@ -1,5 +1,5 @@
 require "rails_helper"
 
 RSpec.describe Liquor do
-    xit {should belong_to :LiquorDistillery}
+    it {should belong_to :liquor_distillery}
 end
